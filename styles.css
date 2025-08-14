@@ -40,3 +40,22 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* ### UTILITY CLASSES ### */
+
+.text-light {
+  color: #85848b;
+  text-transform: uppercase;
+}
+
+.text-spaced {
+  letter-spacing: 3px;
+}
+
+.tag {
+  background-color: var(--blue-950);
+  color: var(--blue-100);
+  padding-inline: 0.4rem;
+  border-radius: 200px;
+  text-transform: uppercase;
+}
