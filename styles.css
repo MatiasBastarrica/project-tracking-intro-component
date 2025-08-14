@@ -59,3 +59,26 @@ a {
   border-radius: 200px;
   text-transform: uppercase;
 }
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-barlow);
+  font-weight: var(--fw-400);
+}
+
+h1,
+nav,
+.cta-links {
+  font-family: var(--ff-barlow-condensed);
+}
+
+h1,
+nav {
+  font-weight: var(--fw-700);
+  color: var(--blue-950);
+}
+
+.subtitle {
+  color: #7a7b7f;
+}
