@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/project-tracking-intro-component-mb-b_6sCmb5rc)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/project-tracking-intro-component/)
 
 ## My process
