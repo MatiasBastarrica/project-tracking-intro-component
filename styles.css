@@ -83,7 +83,7 @@ body::before {
   content: "";
   position: absolute;
   z-index: -1;
-  width: 400px;
+  width: 1400px;
   height: 434px;
   background-color: #edf2f6;
   border-end-start-radius: 4rem;
@@ -233,4 +233,27 @@ h1 {
   position: absolute;
   width: 477px;
   max-width: unset;
+}
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 37.5em) {
+  /* # HEADER # */
+  .nav-icon {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .desktop-nav ul li:last-child {
+    margin-left: 3rem;
+  }
 }
