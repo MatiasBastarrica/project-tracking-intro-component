@@ -9,10 +9,10 @@ navIcon.addEventListener("click", () => {
   if (!mobileNav.isOpen) {
     dialog.show();
     mobileNav.isOpen = true;
-    iconImg.setAttribute("img", "./images/icon-close.svg");
+    iconImg.setAttribute("src", "./images/icon-close.svg");
   } else {
     dialog.close();
     mobileNav.isOpen = false;
-    iconImg.setAttribute("img", "./images/icon-hamburger.svg");
+    iconImg.setAttribute("src", "./images/icon-hamburger.svg");
   }
 });
