@@ -1,0 +1,9 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* # PRIMARY # */
+  --red-400: hsl(0, 100%, 68%);
+  /* # NEUTRAL # */
+  --blue-950: hsl(230, 29%, 20%);
+  --blue-100: hsl(207, 33%, 95%);
+}
